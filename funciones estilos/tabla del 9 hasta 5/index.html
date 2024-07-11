@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saludo</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="forma row col-10">
+            <div class="formulario col-7">
+                <form class="row g-3 needs-validation" onsubmit="return false" novalidate >
+                    <div class="col-md-12">
+                      <label for="txtnumberUno" class="form-label">NUMERO</label>
+                      <input type="number" class="form-control" id="txtnumberUno" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+
+
+                  <div class="col-12">
+ 
+                      <button class="btn btn-primary" type="button" onclick="multi()">enviar<i class="fa-solid fa-paper-plane"></i></button>
+                    </div>
+                    </form>
+                  </div>
+            
+
+
+            <div class="respuesta col-3">
+                <h4>Respuesta</h4>
+                <pre id="respuesta"></pre> 
+            </div>
+        </div>
+    </div>
+
+    <script src="js/validate.js"></script>
+    <script src="js/contador.js"></script>
+</body>
+</html>

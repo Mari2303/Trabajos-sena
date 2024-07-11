@@ -1,0 +1,114 @@
+#container {
+
+    background-color: rgb(12, 11, 11);
+    margin-left: 10px;
+
+}
+#periodo{
+    float: left;
+    
+    width: 1200px;
+  
+  
+}
+
+.filas{
+    float: left;
+    width: 1120px;
+}
+
+.tabla{
+    float: left;
+    width: 1200px;
+    margin-top: 50px;
+    margin-left: -150px; 
+}
+
+
+.columnas{
+    float: left;
+    width: 52px;
+    height: 60px;
+    margin: 2px;
+    border: solid 1px #000;
+}
+
+#periodo2{
+    float: left;
+    width: 1200px;
+    margin-top: 50px;
+    margin-left: 170px;
+   
+} 
+div h1{
+    text-align: center;
+    margin: auto;
+   
+ }
+ div h2{
+    text-align: center;
+    margin: auto;
+   font-size: 10px;
+ }
+
+ div h3{
+    text-align: right;
+    margin: 1px;
+    margin-top: -1px;
+    font-size: 10px;
+ }
+
+
+.primero{
+    margin-left: 930px;
+}
+.segundo{
+    margin-left: 582px;
+}
+.tercero{
+    margin-left: 582px;
+}
+
+
+.fondo-violeta{
+    background-color: #6d0653;
+}
+.fondo-morado{
+    background-color: #410d58;
+}
+.fondo-naranja{
+    background-color: #cc6410;
+}
+.fondo-rosa{
+    background-color: #f10f93;
+}
+.fondo-rojo{
+    background-color: #9b0909;
+}
+.fondo-verdeMarino{
+    background-color: #3b794e;
+}
+.fondo-verdeClaro{
+    background-color: #82eb2d;
+}
+.fondo-azul{
+    background-color: #18e2fd;
+}
+.fondo-azulMarino{
+    background-color: #51c29c;
+}
+.fondo-verde{
+    background-color: #1b5808;
+}
+.fondo-verdeManzana{
+    background-color: #6f9b09;
+}
+
+
+
+		
+
+
+
+
+
