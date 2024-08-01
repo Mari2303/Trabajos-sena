@@ -1,0 +1,89 @@
+/*
+estilos de ejercicio con bootstrap
+autor: Andres MC
+23 de mayo de 2024
+*/
+
+
+body{
+   
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+   
+   
+}
+   
+.container{
+    margin-left: 230px;
+    margin-bottom: 70px;
+   
+    
+}
+
+
+
+
+.simbolo{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.table{
+    
+    width: 400px;
+    height: 250px;
+    margin-left: 300px;
+    margin-top: 100%;
+    border: 3px solid  #6c757d;;   
+}   
+
+.botones{
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.cell{
+    color: #d63384;
+}
+
+#botones{
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+
+.color-b {
+  
+  background-color: #f4ce5cfc !important;
+}
+.color-i {
+ 
+  background-color: rgb(115, 87, 4) !important;
+}
+
+.color-N {
+  background-color: #ff7505 !important;
+}
+
+.color-G {
+    background-color: #3f454b !important;
+  }
+
+.color-O {
+    background-color: rgb(17, 58, 120) !important;
+  }
+
+.color{
+    background-color: aqua !important;
+}
+.pink{
+  background-color: #d63384;
+}
+.rosa-1{
+    background-color: #fff3cd;
+}
+.grande{
+  background-color: #1fed14;
+}
+
+

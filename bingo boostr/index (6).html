@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilos (2).css">
+
+</head>
+<body>
+    <div class="container">
+        <table class="table table-bordered mt-4">
+            <thead>
+                <tr>
+                    <th>B</th>
+                    <th>I</th>
+                    <th>N</th>
+                    <th>G</th>
+                    <th>O</th>
+                </tr>
+            </thead>
+            <tbody id="bingo-table">
+                <!-- Aquí se generará el cartón del bingo -->
+            </tbody>
+        </table>
+        <button type="button" class="btn btn-outline-primary" onclick="generarCarton()">Generar Cartón</button>
+        <button type="button" class="btn btn-outline-secondary" onclick="mostrarColumnaB()">Mostrar Columna B</button>
+        <button type="button" class="btn btn-outline-secondary" onclick="mostrarColumnai()">Mostrar Columna I</button>
+        <button type="button" class="btn btn-outline-secondary" onclick="mostrarColumnaN()">Mostrar Columna N</button>
+        <button type="button" class="btn btn-outline-secondary" onclick="mostrarColumnaG()">Mostrar Columna G</button>
+        <button type="button" class="btn btn-outline-secondary" onclick="mostrarColumnaO()">Mostrar Columna O</button>
+        <button type="button" class="btn btn-outline-info" onclick="mostrarXGrande()">Mostrar X Grande</button>
+        <button type="button" class="btn btn-outline-info" onclick="mostrarxxx()">Mostrar x x x</button>
+        
+        <!-- Otros botones -->
+    </div>
+    <script src="bingo.js"></script>
+</body>
+</html>
